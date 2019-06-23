@@ -20,6 +20,9 @@ Exports a Ghost blog into a collection of Markdown files.
     # Export all posts
     $ ghost-export --all /path/to/ghost/app /path/to/output
 
+    # Export posts from a Ghost JSON export (Ghost version 2+)
+    $ ghost-export --jsonexport /path/to/ghost/json /path/to/output
+
 Alternatively, you can `require('ghost-export')` and use it in your own scripts. Example:
 
     var GhostExport = require('ghost-export');
