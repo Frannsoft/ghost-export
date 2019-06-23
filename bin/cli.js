@@ -26,6 +26,9 @@ program.on('--help', function() {
   console.log('    # Export all posts');
   console.log('    $ ghost-export --all /path/to/ghost/app /path/to/output');
   console.log('');
+  console.log('    # Export posts from a Ghost JSON export file');
+  console.log('    $ ghost-export --jsonexport /path/to/ghost/jsonfile /path/to/output');
+  console.log('');
 });
 
 program.parse(process.argv);
