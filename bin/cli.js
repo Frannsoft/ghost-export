@@ -40,8 +40,6 @@ var args = {
   sourceType: program.jsonexport ? 'json' : 'sqlite'
 };
 if (args.sourceType === 'sqlite') {
-  console.log('test');
-
   GhostExport(args, function(err, count) {
     if (err) {
       console.error(err.message);
