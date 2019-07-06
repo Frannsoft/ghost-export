@@ -4,7 +4,8 @@
   "description": "Exports a Ghost blog into a collection of Markdown files.",
   "main": "lib/ghost-export",
   "scripts": {
-    "test": "grunt jasmine_node"
+    "test": "grunt jasmine_node",
+    "test2": "jasmine spec/*spec.js"
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,8 @@
   "dependencies": {
     "commander": "~2.2.0",
     "dateformat": "~1.0.8-1.2.3",
-    "sqlite3": "3.1.8"
+    "jasmine": "^3.4.0",
+    "sqlite3": "4.0.9"
   },
   "preferGlobal": "true",
   "bin": {
